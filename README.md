@@ -12,7 +12,8 @@ This application will run on port 8081
 Edit your config source at
 
     src\main\resources\bootstrap.properties
-    spring.cloud.config.server.git.uri=https://github.com/langitdsp/config-value
+    spring.cloud.config.uri=http://localhost:8888
+    spring.application.name=config-value
 
 To run this application : mvn spring-boot:run    
 Access the application on :   
